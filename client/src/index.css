@@ -1,0 +1,135 @@
+* {
+  margin:0;
+  padding:0;
+}
+#bg {
+  height:100vh;
+  width:100vw;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.hidden {
+  visibility:hidden;
+}
+#circle {
+  /*position:absolute;
+  left:0;
+  right:0;*/
+  height:500px;
+  width:500px;
+/*  margin:225px auto 0px auto;*/
+  border-radius:50%;
+  z-index:10;
+}
+.spot1 {
+  right:85px;
+  top:40px;
+  position:absolute;
+  height:150px;
+  width:150px;
+  border-radius:50%;
+  background:#D1Cf90;
+
+}
+.spot2 {
+  left:50px;
+  bottom:86px;
+  position:absolute;
+  height:200px;
+  width:200px;
+  border-radius:50%;
+  background:#D1Cf90;
+
+}
+.spot3 {
+  right:150px;
+  bottom:50px;
+  position:absolute;
+  height:50px;
+  width:50px;
+  border-radius:50%;
+  background:#D1C990;
+}
+.star {
+  height:5px;
+  width:5px;
+  background:#fff;
+  position:absolute;
+  border-radius:50%;
+  z-index:1;
+}
+
+
+.bgSun {
+background:fixed no-repeat top right #2878c9;
+background: #2878c9; /* Old browsers */
+background: linear-gradient(to bottom,  #2878c9 0%,#9ec6e5 100%); /* W3C */
+background-size:cover;
+}
+.bgSunset {
+background:fixed no-repeat top right #2878c9;
+background: #c9c67a; /* Old browsers */
+background: linear-gradient(to bottom, #b23032 0%,#c9c67a 100%);
+background-size:cover;
+}
+.bgMoonrise {
+background:fixed no-repeat top right #2878c9;
+background: #40617c; /* Old browsers */
+background: linear-gradient(to bottom, #000000 0%,#40617c 100%);
+background-size:cover;
+}
+.bgMoon {
+background:fixed no-repeat top right #2878c9;
+background: #060a0c; /* Old browsers */
+background: linear-gradient(to bottom, #000000 0%,#060a0c 100%);
+background-size:cover;
+}
+.bgMoonset {
+background:fixed no-repeat top right #2878c9;
+background: #40617c; /* Old browsers */
+background: linear-gradient(to bottom, #000000 0%,#40617c 100%);
+background-size:cover;
+}
+.bgSunrise {
+background:fixed no-repeat top right #2878c9;
+background: #3a4260; /* Old browsers */
+background: linear-gradient(to bottom, #3a4260 1%,#fff27f 100%);
+background-size:cover;
+}
+
+
+
+
+
+.Sun {
+  background:#FFFBA3;
+  border:solid thick #F5D918;
+  box-shadow:rgba(0,0,0,.5) 5px 5px 35px;
+}
+.Sunset {
+  background:#FF7E00;
+  border:solid thick #ED1C07;
+  box-shadow:rgba(0,0,0,.5) 5px 5px 35px;
+}
+.Moonrise {
+  background:#FFFBD1;
+  border:solid thick #EDE78B;
+  box-shadow:rgba(255,255,255,.75) 5px 5px 35px;
+}
+.Moon {
+  background:#FFFBD1;
+  border:solid thick #EDE78B;
+  box-shadow:rgba(255,255,255,.75) 5px 5px 35px;
+}
+.Moonset {
+  background:#FFFBD1;
+  border:solid thick #EDE78B;
+  box-shadow:rgba(255,255,255,.75) 5px 5px 35px;
+}
+.Sunrise {
+  background:#FFF73B;
+  border:solid thick #FFCE00;
+  box-shadow:rgba(0,0,0,.5) 5px 5px 35px;
+}
